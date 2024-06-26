@@ -72,71 +72,7 @@ Content-Type: application/json
 
 ### Get User Details
 
-GET /api/worko/user/:userId
-
-
-project structure
-
-worko
-│
-├───backend
-│   │   .env
-│   │   .gitignore
-│   │   package.json
-│   │   README.md
-│   │   index.js
-│   │
-│   ├───controllers
-│   │       userController.js
-│   │
-│   ├───dao
-│   │       userDao.js
-│   │
-│   ├───models
-│   │       userModel.js
-│   │
-│   ├───routes
-│   │       userRoutes.js
-│   │
-│   ├───services
-│   │       userService.js
-│   │
-│   ├───middlewares
-│   │       authMiddleware.js
-│   │       validationMiddleware.js
-│   │
-│   ├───dtos
-│   │       userDto.js
-│   │
-│   └───tests
-│           user.test.js
-│
-└───frontend
-    │   .gitignore
-    │   package.json
-    │   tailwind.config.js
-    │   postcss.config.js
-    │   README.md
-    │   craco.config.js
-    │
-    ├───public
-    │       index.html
-    │       favicon.ico
-    │
-    └───src
-        │   index.js
-        │   App.js
-        │   index.css
-        │
-        ├───components
-        │       UserList.js
-        │       CreateUser.js
-        │       UpdateUser.js
-        │
-        └───services
-                userService.js
-
-
+```GET /api/worko/user/:userId```
 
 
 
