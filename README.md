@@ -8,32 +8,32 @@ This API provides endpoints for managing user data.
 
 ### List Users
 
-GET /api/worko/user
+```GET /api/worko/user```
 
 Lists all users.
 
 ### Get User Details
 
-GET /api/worko/user/
+```GET /api/worko/user/```
 
 Retrieves details of a specific user by ID.
 
 ### Create User
 
-POST /api/worko/user
+```POST /api/worko/user```
 
 Creates a new user with provided data.
 
 ### Update User
 
-PUT /api/worko/user/
-PATCH /api/worko/user/
+```PUT /api/worko/user/```
+```PATCH /api/worko/user/```
 
 Updates an existing user by ID. Both `PUT` and `PATCH` methods are supported for full and partial updates, respectively.
 
 ### Soft Delete User
 
-DELETE /api/worko/user/
+```DELETE /api/worko/user/```
 
 Soft deletes a user by marking them as deleted without removing from the database.
 
@@ -50,7 +50,7 @@ The API returns appropriate HTTP status codes and JSON error responses for vario
 ### Create User
 
 http
-POST /api/worko/user
+```POST /api/worko/user```
 Content-Type: application/json
 
 {
@@ -63,7 +63,7 @@ Content-Type: application/json
 
 ### Update User
 
-PATCH /api/worko/user/:userId
+```PATCH /api/worko/user/:userId```
 Content-Type: application/json
 
 {
